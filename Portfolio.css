@@ -1280,9 +1280,7 @@ li {
     padding-top: 35px;
     flex-wrap: wrap;
     gap: 3rem;
-
 }
-
 .projects-grid .pro__1 {
     height: fit-content;
     padding: 1.5rem;
@@ -1375,5 +1373,338 @@ a:-webkit-any-link {
     .projects-grid .pro {
         flex: 1 1 calc(100% - 2rem);
         max-width: calc(100% - 0rem);
+    }
+}
+
+/* Contact Section Design */
+
+.contact{
+    background-color: #111111;
+    height: fit-content;
+    padding-bottom: 15rem;
+}
+.ContactContainer{
+    margin: 0 auto;
+    padding: 120px 4rem 25px 4rem;
+    max-width: 107rem;
+}
+.contact-content h2{
+    color: #60A1FB;
+    font-size: 1.7rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+}
+.contact-content h3{
+    color: #f5f5f5;
+    font-family: Poppins,sans-serif;
+    font-size: 2.5rem;
+    line-height: 1.4;
+    margin-bottom: 3rem;
+}
+.Contact-desFor{
+    width: 100%;
+}
+.alert-contactForm{
+    color: #f5f5f5;
+    font-family: Poppins,sans-serif;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    font-weight: 600;
+}
+.Contact-desFor form{
+    width: 100%;
+}
+.Contact-desFor form .firstRow{
+    display: flex;
+    gap: 3rem;
+}
+.Contact-desFor form .secondRow{
+    display: flex;
+    gap: 3rem;
+}
+.Contact-desFor form .formName{
+    display: grid;
+    width: 50%;
+}
+.Contact-desFor form .formName label{
+    color: #f5f5f5;
+    font-family: 'Poppins',sans-serif;
+    font-size: 1.3rem;
+    line-height: 0.8;
+    margin-bottom: 1rem;
+    font-weight: 500;
+}
+.Contact-desFor form .formName input{
+    color: #f5f5f5;
+    font-family: 'Poppins',sans-serif;
+    font-size: 1.3rem;
+    padding: 10px 15px 10px 15px;
+    margin-bottom: 3rem;
+    max-width: 100%;
+    border-radius: 3px;
+    outline: 0;
+    border: 0;
+    background-color: #575757;
+}
+.Contact-desFor form .formEmail{
+    display: grid;
+    width: 50%;
+}
+.Contact-desFor form .formEmail label{
+    color: #f5f5f5;
+    font-family: 'Poppins',sans-serif;
+    font-size: 1.3rem;
+    line-height: 0.8;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+.Contact-desFor form .formEmail input{
+    color: #f5f5f5;
+    font-family: 'Poppins',sans-serif;
+    font-size: 1.3rem;
+    padding: 10px 15px 10px 15px;
+    margin-bottom: 3rem;
+    max-width: 100%;
+    border-radius: 3px;
+    outline: 0;
+    border: 0;
+    background-color: #575757;
+}
+.Contact-desFor form .formInterest{
+    display: grid;
+    width: 50%;
+}
+.Contact-desFor form .formInterest label{
+    color: #f5f5f5;
+    font-family: 'Poppins',sans-serif;
+    font-size: 1.3rem;
+    line-height: 0.8;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+.Contact-desFor form .formInterest select{
+    color: #f5f5f5;
+    font-family: 'Poppins',sans-serif;
+    font-size: 1.3rem;
+    padding: 10px 15px 10px 15px;
+    margin-bottom: 3rem;
+    max-width: 100%;
+    border-radius: 3px;
+    outline: 0;
+    border: 0;
+    background-color: #575757;
+    appearance: none; 
+    -webkit-appearance: none;
+}
+.Contact-desFor form .formBudget{
+    display: grid;
+    width: 50%;
+}
+.Contact-desFor form .formBudget label{
+    color: #f5f5f5;
+    font-family: 'Poppins',sans-serif;
+    font-size: 1.3rem;
+    line-height: 0.8;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+.Contact-desFor form .formBudget select{
+    color: #f5f5f5;
+    font-family: 'Poppins',sans-serif;
+    font-size: 1.3rem;
+    padding: 10px 15px 10px 15px;
+    margin-bottom: 3rem;
+    max-width: 100%;
+    border-radius: 3px;
+    outline: 0;
+    border: 0;
+    background-color: #575757;
+    appearance: none;
+    -webkit-appearance: none;
+}
+.Contact-desFor form .formMessage{
+    display: grid;
+}
+.Contact-desFor form .formMessage label{
+    color: #f5f5f5;
+    font-family: 'Poppins',sans-serif;
+    font-size: 1.3rem;
+    line-height: 0.8;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+.Contact-desFor form .formMessage textarea{
+    color: #f5f5f5;
+    font-family: 'Poppins',sans-serif;
+    font-size: 1.3rem;
+    padding: 10px 15px 10px 15px;
+    margin-bottom: 3rem;
+    max-width: 100%;
+    border-radius: 3px;
+    outline: 0;
+    border: 0;
+    background-color: #575757;
+    min-height: 100px;
+    max-height: 150px;
+    resize: vertical;
+}
+.Contact-desFor form button{
+    padding: 13px 26px;
+    color: white;
+    font-family: 'Poppins',sans-serif;
+    font-size: 1.4rem;
+    line-height: 0.5;
+    border: 1px solid #005FCC;
+    border-radius: 3px;
+    background-color: #005FCC;
+    transition: .0s;
+    cursor: pointer;
+    font-weight: 500;
+    box-shadow: 0 0 10px #12121213;
+}
+input::placeholder {
+    color: #f5f5f5;
+    opacity: 1;
+}
+textarea::placeholder {
+    color: #f5f5f5;
+    opacity: 1;
+}
+input::-webkit-input-placeholder {
+    color: #f5f5f5;
+}
+input:-moz-placeholder {
+    color: #f5f5f5;
+}
+input::-moz-placeholder {
+    color: #f5f5f5;
+}
+input:-ms-input-placeholder {
+    color: #f5f5f5;
+}
+textarea::-webkit-textarea-placeholder {
+    color: #f5f5f5;
+}
+textarea:-moz-placeholder {
+    color: #f5f5f5;
+}
+textarea::-moz-placeholder {
+    color: #f5f5f5;
+}
+textarea:-ms-textarea-placeholder {
+    color: #f5f5f5;
+}
+@media (max-width: 1000px) {
+    .ContactContainer{
+        padding: 120px 2rem 25px 2rem;
+    }
+    .contact-content h3{
+        font-size: 2.25rem;
+    }
+}
+@media (max-width: 768px) {
+    .Contact-desFor form .firstRow{
+        display: block;
+        gap: 3rem;
+    }
+    .Contact-desFor form .secondRow{
+        display: block;
+        gap: 3rem;
+    }
+    .Contact-desFor form .formName{
+        width: 100%;
+    }
+    .Contact-desFor form .formEmail{
+        width: 100%;
+    }
+    .Contact-desFor form .formInterest{
+        width: 100%;
+    }
+    .Contact-desFor form .formBudget{
+        width: 100%;
+    }
+}
+
+
+/* Footer Section Design */
+
+.footer-section{
+    background-color: #111111;
+    height: fit-content;
+}
+.footerContainer{
+    margin: 0 auto;
+    padding: 0px 4rem 4rem 4rem;
+    max-width: 107rem;
+    width: 100%;
+}
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.footer-content .copyright,
+.footer-content .logo-container,
+.footer-content .social-links{
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+.footer-content .copyright{
+    justify-content: flex-start;
+}
+.footer-content .logo-container{
+    justify-content: center;
+}
+.footer-content .social-links{
+    justify-content: flex-end;
+    gap: 15px;
+}
+.footer-content .copyright span{
+    font-family: 'Poppins',sans-serif;
+    font-size: 1.25rem;
+    font-weight: bolder;
+    color: #f5f5f5;
+}
+.footer-content .logo-container a img {
+    width: 55px;
+    height: auto;
+    object-fit: contain;
+}
+.footer-content .social-links{
+    justify-content: flex-end;
+    gap: 15px;
+}
+.footer-content .social-links a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35px;
+    width: 35px;
+    border: 1px solid #ffffff39;
+    background-color: #ffffff39;
+    border-radius: 50%;
+    transition: all 0.4s ease-in-out;
+    cursor: pointer;
+}
+.footer-content .social-links a svg{
+    color: #f5f5f5;
+}
+.footer-content .social-links a:hover{
+    background-color: transparent;
+    border: 1px solid #f5f5f5;
+}
+@media(max-width: 700px){
+    .footerContainer{
+        margin: 0 auto;
+        padding: 0px 2rem 4rem 2rem;
+        max-width: 107rem;
+        width: 100%;
+    }
+    .footer-content {
+        flex-direction: column;
+        gap: 1rem;
     }
 }
